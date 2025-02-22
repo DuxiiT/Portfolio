@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johnny Mahfoud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+        <img src="imgs/logo.png" alt="Logo" class="logo-image" />
+        <span class="logo-text">Johnny Mahfoud</span>
+    </div>    
+    <div class="nav-links">
+      <a href="#slide1">Hem</a>
+      <a href="#slide2">Om Mig</a>
+      <a href="#slide3">Färdigheter</a>
+      <a href="#slide4">Kontakta Mig</a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <section id="slide1">
+      <div class="text">
+        <h1>Hej, jag heter <span class="dark-blue">Johnny</span></h1>
+        <h2>Jag är en <span class="dark-blue">Front-End Developer</span></h2>        
+        <p>Jag är 18 år gammal och bor i Sverige, jag älskar att programmera med olika programmeringsspråk som C++, är duktig på Lua och Python, men bäst på front-end. Jag lär mig även att bli full-stack utvecklare. Jag har programmerat sedan jag var runt 14 år gammal och älskar att hålla på med det. På fritiden gillar jag att träna och lära mig spela gitarr.</p>        
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+          <a href="https://twitter.com" target="_blank"><img src="/imgs/twitter.png" alt="Twitter"></a>
+          <a href="https://github.com" target="_blank"><img src="/imgs/github.png" alt="GitHub"></a>
+        </div>
+
+        <div class="buttons">
+          <a href="#slide4"><button class="hire">Anställ mig</button></a>
+          <a href="#slide4"><button class="contact">Kontakta Mig</button></a>
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="imgs/logo.png" alt="Profile Picture">
+      </div>
+    </section>
+
+    <section id="slide2">
+        <div class="services-title">Mina Färdigheter</div>
+        <div class="service-cards">
+            <div class="card">
+                <div class="icon-container">
+                    <img src="imgs/brackets.png" alt="Front-End Icon" class="icon">
+                </div>
+                <h3>Backend Development</h3>
+                <p>Skicklig i att bygga robusta och skalbara backend-lösningar med teknologier som Node.js.</p>
+                <a href="https://github.com/DuxiiYT" target="_blank"><button class="github-button">GitHub</button></a>
+            </div>
+            <div class="card">
+                <div class="icon-container">
+                    <img src="imgs/html.png" alt="Front-End Icon" class="icon">
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Erfarenhet av att skapa responsiva och användarvänliga webbgränssnitt med HTML, CSS och JavaScript</p>
+                <a href="https://duxiiyt.github.io/CreativePS/" target="_blank"><button class="github-button">Livedemonstration</button></a>
+            </div>
+            <div class="card">
+                <div class="icon-container">
+                    <img src="imgs/mobile.png" alt="Lua Icon" class="icon">
+                </div>
+                <h3>Python & Lua</h3>
+                <p>Expert på att utveckla skript och system inom Python, särskilt inom AI och maskininlärning, samt i Lua-baserade miljöer.</p>
+                <a href="https://github.com/DuxiiYT" target="_blank"><button class="github-button">GitHub</button></a>
+            </div>
+        </div>
+    </section>
+    
+      
+    <section id="slide3">
+        <h2 class="testimonials-title">Rekommendationer</h2>
+        <div class="card-container">
+          <div class="card">
+            <p>"Duxii är en fantastisk utvecklare! Arbetet med front-end är verkligen i världsklass. Jag rekommenderar varmt deras tjänster!"</p>
+            <div class="stars-box">
+              <div class="stars">
+                ⭐⭐⭐⭐☆
+              </div>
+            </div>
+            <h3><span class="first-name">Erik</span> <span class="last-name">Johansson</span></h3>
+          </div>
+          <div class="card">
+            <p>"Jag har jobbat med Duxii på flera projekt och jag har alltid varit imponerad av deras professionalism och tekniska skicklighet. Ett nöje att samarbeta!"</p>
+            <div class="stars-box">
+              <div class="stars">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <h3><span class="first-name">Anna</span> <span class="last-name">Karlsson</span></h3>
+          </div>
+          <div class="card">
+            <p>"Duxii hjälpte oss att förbättra användargränssnittet på vår hemsida och resultatet blev fantastiskt. Vi kommer definitivt att jobba med dem igen!"</p>
+            <div class="stars-box">
+              <div class="stars">
+                ⭐⭐⭐☆☆
+              </div>
+            </div>
+            <h3><span class="first-name">Oskar</span> <span class="last-name">Larsson</span></h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="slide4">
+        <h2>Kontakta Mig</h2>
+        <form class="contact-form" id="contact-form">
+            <div class="left-column">
+                <div class="input-container">
+                    <input type="text" id="full-name" placeholder="Full Namn" required>
+                </div>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Email"  required>
+                </div>
+                <div class="input-container">
+                    <input type="tel" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="input-container">
+                    <input type="text" id="subject" placeholder="Ämne"  required>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="input-container">
+                    <textarea id="message" rows="6" placeholder="Skriv ditt meddelande här" required></textarea>
+                </div>
+                <button type="submit" class="send-message">Skicka Meddelande</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="slide5">
+        <p>&copy; Johnny Mahfoud | All rights reserved.</p>
+    </section>
+
+    <button id="goToTopBtn" class="go-to-top-btn">
+        <img src="imgs/arrow.png" alt="Go to Top" />
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
