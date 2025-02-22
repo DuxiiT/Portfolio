@@ -95,8 +95,8 @@ order: 1;
 }
 
 #slide1 .icon img {
-width: 400px;
-height: 400px;
+width: 600px;
+height: 600px;
 border-radius: 50%;
 border: 4px solid #10ed00;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -109,16 +109,16 @@ box-shadow: 0px 0px 10px #10ed00;
 
 .text {
 width: 42%;
-font-size: 27px;
+font-size: 60px;
 }
 
 .text h2 {
-font-size: 27px;
+font-size: 50px;
 margin-top: 7px;
 }
 
 .text p {
-font-size: 14px;
+font-size: 30px;
 margin-top: 10px;
 }
 
@@ -161,13 +161,13 @@ box-shadow: 0px 0px 8px #10ed00;
 }
 
 .buttons {
-margin-top: 20px;
+margin-top: 10px;
 }
 
 button {
 margin: 10px;
 padding: 12px 20px;
-font-size: 16px;
+font-size: 20px;
 cursor: pointer;
 border: none;
 transition: all 0.3s ease;
@@ -196,9 +196,6 @@ background-color: #10ed00;
 color: white;
 }
 
-
-
-
 #slide2 {
 display: flex;
 flex-direction: column;
@@ -208,7 +205,7 @@ padding: 40px;
 }
 
 #slide2 .services-title {
-font-size: 36px;
+font-size: 80px;
 font-weight: bold;
 margin-bottom: 20px;
 text-align: center;
@@ -225,7 +222,8 @@ flex-wrap: wrap;
 #slide2 .card {
 background-color: #10ed00;
 border: 4px solid #10ed00;
-width: 250px;
+width: 400px;
+height: 500px;
 padding: 40px;
 text-align: center;
 border-radius: 8px;
@@ -241,14 +239,14 @@ transform: scale(1.1);
 }
 
 #slide2 .card h3 {
-font-size: 20px;
+font-size: 30px;
 margin: 10px 0;
 color: black;
 transition: color 0.3s ease;
 }
 
 #slide2 .card p {
-font-size: 14px;
+font-size: 25px;
 margin-bottom: 15px;
 color: black;
 }
@@ -300,13 +298,6 @@ background-color: #0dff00;
 color: black;
 }
 
-
-
-
-
-
-
-
 #slide3 {
 display: flex;
 justify-content: center;
@@ -319,7 +310,7 @@ color: white;
 }
 
 .testimonials-title {
-font-size: 36px;
+font-size: 70px;
 font-weight: bold;
 color: white;
 margin-bottom: 30px;
@@ -330,7 +321,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 gap: 20px;
-width: 100%;
+height: 500px;
 max-width: 1000px;
 }
 
@@ -338,14 +329,14 @@ max-width: 1000px;
 background-color: #0a0a0a;
 padding: 20px;
 border-radius: 10px;
-width: 280px;
-text-align: center;
+font-size: 28px;
+width: 400px;
+text-align: left;
 color: white;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 border: 2px solid transparent;
 transition: all 0.3s ease;
 }
-
 
 #slide3 .card:hover {
 transform: translateY(-10px);
@@ -377,19 +368,6 @@ color: white;
 color: #10ed00;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #slide4 {
 display: flex;
 flex-direction: column;
@@ -402,7 +380,7 @@ min-height: 100vh;
 }
 
 #slide4 h2 {
-font-size: 36px;
+font-size: 70px;
 font-weight: bold;
 margin-bottom: 20px;
 text-align: center;
@@ -419,8 +397,8 @@ max-width: 1000px;
 .left-column {
 display: flex;
 flex-direction: column;
-gap: 15px;
-width: 45%;
+gap: 30px;
+width: 60%;
 }
 
 .left-column .input-container input {
@@ -463,8 +441,8 @@ border: 2px solid #10ed00;
 }
 
 .right-column textarea {
-width: 300px;
-height: 200px;
+width: 500px;
+height: 400px;
 padding: 10px;
 font-size: 16px;
 border: 2px solid #3ad931;
@@ -597,6 +575,18 @@ align-items: center;
 text-align: center;
 }
 
+#slide1 .text h1{
+font-size: 50px;
+}
+
+#slide1 .text h2 {
+font-size: 10px;
+}
+
+#slide1 .text p {
+font-size: 15px;
+}
+
 .text {
 width: 100%;
 font-size: 18px;
@@ -616,7 +606,6 @@ align-items: center;
 width: 100%;
 }
 
-
 .buttons {
 flex-direction: column;
 gap: 10px;
@@ -625,6 +614,11 @@ gap: 10px;
 #slide2 .service-cards {
 flex-direction: column;
 align-items: center;
+font-size: 10px;
+}
+
+#slide2 .services-title {
+font-size: 35px;
 }
 
 #slide2 .github-button {
@@ -632,12 +626,12 @@ visibility: hidden;
 }
 
 #slide2 .card {
-width: 90%;
-padding: 20px;
+padding: 10px;
+height: 200px;
 }
 
 #slide2 .card h3 {
-font-size: 18px;
+font-size: 15px;
 }
 
 #slide3 .card-container {
@@ -645,9 +639,29 @@ flex-direction: column;
 align-items: center;
 }
 
+#slide3 .card {
+height: 300px;
+}
+
+#slide3 .testimonials-title {
+font-size: 40px;
+}
+
+#slide3 .card p {
+font-size: 15px;
+}
+
+#slide3 .card h3 {
+font-size: 10px;
+}
+
 .contact-form {
 flex-direction: column;
 align-items: center;
+}
+
+.slide4 h2 {
+font-size: 15px;
 }
 
 .left-column, .right-column {
@@ -668,7 +682,7 @@ bottom: 10px;
 }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .navbar {
 padding: 10px;
 }
